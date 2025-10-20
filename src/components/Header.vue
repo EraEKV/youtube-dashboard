@@ -67,7 +67,7 @@
 
     <div class="header-right">
       <button @click="toggleSort" class="icon-btn">
-        <ArrowUpDown :size="20" :class="{ active: sortBy !== 'default' }" />
+        <ArrowUpDown :size="20" :class="{ active: sortBy === 'views-asc' }" />
       </button>
       <button class="icon-btn">
         <Plus :size="20" />
